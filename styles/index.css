@@ -395,3 +395,143 @@ nav {
     text-decoration: underline;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.usa-seguros-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5rem;
+    gap: 1rem;
+
+}
+
+.card-usa-seguros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 3rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.card-usa-seguros .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00008F;
+    text-align: center;
+}
+
+.card-usa-seguros i {
+    font-size: 3rem;
+    color: #00008F;
+    cursor: pointer;
+}
+
+.card-usa-seguros .card-content {
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+
+.card-usa-seguros:hover {
+    text-decoration: underline;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.select-seguro {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.usa-seguros h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: #333333;
+    text-align: center;
+}
+
+.clientes {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.clientes h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    color: #333333;
+    width: 30%;
+}
+
+.clientes p {
+    font-size: 16px;
+    margin-left: 3rem;
+    color: #333333;
+    width: 30%;
+}
+
+.clientes a {
+    font-size: 16px;
+    margin-left: 3rem;
+    color: #00008F;
+    width: 30%;
+    transition: 0.5s;
+}
+
+.clientes a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3B3FD8;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 7rem;
+    padding: 2rem;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #BBBCF1;
+}
+
+footer i {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+footer i:hover {
+    color: #BBBCF1;
+}
+
+.contactanos {
+    color: white;
+
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+}
