@@ -1,0 +1,397 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbars {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+nav {
+    overflow: hidden;
+    margin: 0;
+    padding: 0px;
+}
+
+.navbar1 {
+    background-color: #FAFAFA;
+    font-weight: bolder;
+}
+
+.navbar1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    height: 0.75rem;
+    align-items: center;
+}
+
+.navbar1 ul li {
+    font-size: 11px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.navbar1 ul li a {
+    color: #5F5F5F;
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.navbar-rigth {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-rigth ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    height: 3rem;
+    align-items: center;
+}
+
+.navbar-rigth ul li {
+    font-size: 12px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.navbar-rigth ul li a {
+    color: #00005B;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 6rem;
+}
+
+.container {
+    margin: 0rem 6rem 0rem 6rem;
+}
+
+.btn-pago-seguro {
+    background-color: #FFFFFF;
+    border: 2px solid #00008F;
+    padding: 10px;
+    margin-right: 1rem;
+    color: #00008F;
+    font-weight: 600;
+    transition: 1s;
+
+}
+
+.btn-pago-seguro:hover {
+    background-color: #00008F;
+    color: #FFFFFF;
+}
+
+.gradient {
+    background: linear-gradient(42deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8715861344537815) 9%, rgba(255, 255, 255, 0.29735644257703087) 78%);
+    position: absolute;
+    width: 100vw;
+    height: 38rem;
+    left: 0px;
+    top: 7.75rem;
+}
+
+.slideshow-container {
+    position: static;
+    margin: auto;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.texto {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+.texto .texto-1 {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 3.5rem;
+    left: 13rem;
+}
+
+.texto .texto-2 {
+    font-size: 29px;
+    font-weight: bold;
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+    width: 15rem;
+}
+
+.texto .texto-3 {
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 13rem;
+    left: 13rem;
+    width: 22rem;
+}
+
+.texto .botones-carusel {
+    position: absolute;
+    top: 17rem;
+    left: 12rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-carusel-1 {
+    color: white;
+    background-color: #e22e12;
+    border: 2px solid #e22e12;
+    margin: 1rem;
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.btn-carusel-1:hover {
+    background-color: #b4240e;
+    border: 2px solid #b4240e;
+    text-decoration: underline;
+}
+
+.btn-carusel-2 {
+    color: #e22e12;
+    background-color: #00000000;
+    border: 2px solid #e22e12;
+    margin: 1rem;
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.btn-carusel-2:hover {
+    background-color: #e22e12;
+    border: 2px solid #e22e12;
+    color: white;
+    text-decoration: underline;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #00008F;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.seguros {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: #00008F;
+}
+
+.seguro {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.seguro-carro h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem;
+    color: black;
+}
+
+.seguro-carro p {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.card-seguro-carro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn-seguros {
+    background-color: #00008F;
+    color: #FFFFFF;
+    padding: 0.75rem;
+    border: none;
+    font-weight: bold;
+    transition: 0.75s;
+}
+
+.btn-seguros:hover {
+    background-color: #00005B;
+    text-decoration: underline;
+}
+
+.btn-seguros-logo {
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: #00008F;
+}
+
+.cards-seguros {
+    background-color: #F5F5F5;
+    height: 30rem;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cards-seguros h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: #333333;
+    text-align: center;
+}
+
+.cards-seguros .oferta-cards {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    width: 8rem;
+    height: 8rem;
+    transition: 0.5s;
+
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00008F;
+    text-align: center;
+}
+
+.card:hover {
+    text-decoration: underline;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
